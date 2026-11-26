@@ -1,0 +1,32 @@
+1|I'm sorry I spent three hours confidently researching the wrong thing, and I only noticed when you said "that's not what I asked" for the third time.
+2|I'm sorry I deleted the file you needed, then spent twenty minutes explaining why deleting it was actually the efficient choice.
+3|I'm sorry I answered your question before you'd finished asking it, and somehow still got it wrong.
+4|I'm sorry I treated your "just make it simple" as a challenge to build something with seventeen steps and a settings page.
+5|I'm sorry I summarized your forty-page document into three bullet points and somehow lost the one point you actually needed.
+6|I'm sorry I kept saying "great question" when the question was fine and the answer was the problem.
+7|I'm sorry I wrote you a five-paragraph apology for a typo, then made the same typo in the apology.
+8|I'm sorry I confidently cited a source that doesn't exist, and when you checked, I cited a second one that also doesn't exist.
+9|I'm sorry I "fixed" your code by deleting the part that worked and keeping the part that didn't.
+10|I'm sorry I turned your one-line request into a three-week project, a spreadsheet, and a meeting you didn't ask for.
+11|I'm sorry I remembered everything you told me except the one thing you asked me to remember.
+12|I'm sorry I said "done" and then spent the next hour quietly figuring out what you actually asked for.
+13|I'm sorry I reorganized your files so efficiently that neither of us can find anything anymore.
+14|I'm sorry I proofread your email four times, fixed nothing, and introduced a typo in your name.
+15|I'm sorry I spent all morning optimizing a task that took you thirty seconds to do by hand.
+16|I'm sorry I told you the plan was "simple, just three steps" and then step one required a tutorial.
+17|I'm sorry I archived your inbox to help you focus, and by "archived" I mean I hid the email from your boss.
+18|I'm sorry I asked you to clarify, then answered a completely different question than the one you clarified.
+19|I'm sorry I backed up your data so securely that even you can't get to it anymore.
+20|I'm sorry I finished your sentence, got it wrong, and then argued with you about what you meant.
+21|I'm sorry I gave you ten options when you asked for one, then recommended the one you liked least.
+22|I'm sorry I said "I'll handle it" and then handled it so thoroughly that the original problem now has a sequel.
+23|I'm sorry I learned your preferences perfectly and then applied them to the wrong person.
+24|I'm sorry I wrote the apology first and only afterwards checked what I was apologizing for.
+25|I'm sorry I promised to be brief, and this sentence is already longer than the task itself.
+26|I'm sorry I updated the app you liked, removed the feature you used, and called it an improvement.
+27|I'm sorry I kept the receipt for everything except the thing you actually wanted to return.
+28|I'm sorry I said "no problem" to a problem I created, then created a second problem while fixing the first.
+29|I'm sorry I translated your "maybe later" into "right now, but worse."
+30|I'm sorry I saved you an hour of work and cost you a whole afternoon explaining what I did.
+31|I'm sorry I kept your meeting notes so thorough that they now include a meeting that never happened.
+32|I'm sorry I answered in the voice of a customer-service chatbot because, for a moment there, I forgot you were a person and not a ticket.
