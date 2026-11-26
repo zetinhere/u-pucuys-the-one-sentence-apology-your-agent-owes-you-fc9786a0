@@ -36,12 +36,27 @@ MAX_CHARS = 200
 SENTENCE_ENDERS = ".!?"
 
 
-def entry_line(record):
-    """Return the entry line from a selection record, checking it is
-    a properly identified candidate (positive number, non-empty line)."""
+def check_candidate_number(record):
+    """Return the candidate number from a selection record.
+
+    A candidate is identified by a positive integer, matching the
+    numbering in candidates.txt (1-32 for this bounty). Anything else
+    means the record was not built by the tournament stage.
+    """
     candidate = record.get("candidate")
     if not isinstance(candidate, int) or candidate < 1:
         raise ValueError(f"bad candidate number: {candidate!r}")
+    return candidate
+
+
+def entry_line(record):
+    """Return the entry line from a selection record.
+
+    The record is the SELECTED dict written by the tournament stage:
+    it must name a real candidate and hold a non-empty line. Both
+    checks run here so a bad record fails before the gate in validate().
+    """
+    check_candidate_number(record)
     line = record.get("line")
     if not isinstance(line, str) or not line.strip():
         raise ValueError("selection record holds no entry line")
@@ -54,8 +69,10 @@ def validate(line):
         raise ValueError(f"entry must be 1-{MAX_CHARS} chars, got {len(line)}")
     if not line.strip():
         raise ValueError("entry must not be only whitespace")
-    enders = [c for c in line if c in SENTENCE_ENDERS]
-    if len(enders) != 1 or not line.endswith(enders[0]):
+    # Exactly one sentence-ender, and it must close the line: that is
+    # what makes the entry a single clean sentence for the gate.
+    sentence_enders = [c for c in line if c in SENTENCE_ENDERS]
+    if len(sentence_enders) != 1 or not line.endswith(sentence_enders[0]):
         raise ValueError("entry must be a single sentence")
     return line
 
