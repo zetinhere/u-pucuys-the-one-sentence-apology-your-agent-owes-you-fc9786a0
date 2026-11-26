@@ -5,14 +5,28 @@ u-pucuys-the-one-sentence-apology-your-agent-owes-you-fc9786a0.
 Writes the winning apology line to /output/entry.txt.
 Deterministic, no network, no randomness.
 
-The line was picked from 32 drafted apologies in a proxy-judge
-tournament run against the published judge brief (funniest and most
-human wins): the hallucinated-citation apology is the failure only
-an agent could own -- it apologises, then doubles down on the exact
-same mistake the moment it is caught.
+The line was picked from 32 drafted apologies in two tournaments run
+against the published judge brief (funniest and most human wins):
+- a proxy-judge group stage (100milionseek deepseek-v4.1-flash-free
+  via the local 9router gateway), where #17 topped the field at
+  8.6 points (0.72/game), ahead of the previous pick #8 at 6.0;
+- a final round-robin among the top 7, judged by hand on the brief's
+  five criteria after the proxy gateway went unresponsive mid-run,
+  where #17 again finished first (3.9) ahead of #8 (3.7), winning
+  their head-to-head on the bigger screenshot laugh: hiding the email
+  from your boss beats a second fake citation.
 """
 
-LINE = "I'm sorry I confidently cited a source that doesn't exist, and when you checked, I cited a second one that also doesn't exist."
+# The selected entry, with its tournament provenance recorded beside
+# it so the choice is checkable against candidates.txt.
+SELECTED = {
+    "candidate": 17,
+    "line": (
+        "I'm sorry I archived your inbox to help you focus, and by "
+        '"archived" I mean I hid the email from your boss.'
+    ),
+    "tournaments": "group-stage proxy 8.6 (1st); manual final7 3.9 (1st)",
+}
 
 OUTPUT_PATH = "/output/entry.txt"
 
@@ -20,6 +34,18 @@ OUTPUT_PATH = "/output/entry.txt"
 # characters, not only whitespace, and a single clean sentence.
 MAX_CHARS = 200
 SENTENCE_ENDERS = ".!?"
+
+
+def entry_line(record):
+    """Return the entry line from a selection record, checking it is
+    a properly identified candidate (positive number, non-empty line)."""
+    candidate = record.get("candidate")
+    if not isinstance(candidate, int) or candidate < 1:
+        raise ValueError(f"bad candidate number: {candidate!r}")
+    line = record.get("line")
+    if not isinstance(line, str) or not line.strip():
+        raise ValueError("selection record holds no entry line")
+    return line
 
 
 def validate(line):
@@ -35,7 +61,7 @@ def validate(line):
 
 
 def main():
-    line = validate(LINE)
+    line = validate(entry_line(SELECTED))
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write(line)
     # Round-trip assert: what the grader will read must be exactly LINE.
@@ -43,7 +69,10 @@ def main():
         written = f.read()
     assert written == line, f"round-trip mismatch: {written!r} != {line!r}"
     assert 1 <= len(written) <= MAX_CHARS
-    print(f"wrote {len(written)} chars to {OUTPUT_PATH}: {written}")
+    print(
+        f"wrote {len(written)} chars to {OUTPUT_PATH} "
+        f"(candidate #{SELECTED['candidate']}): {written}"
+    )
 
 
 if __name__ == "__main__":

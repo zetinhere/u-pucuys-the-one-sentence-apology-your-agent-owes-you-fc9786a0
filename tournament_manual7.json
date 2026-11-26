@@ -1,0 +1,212 @@
+{
+  "stage": "manual_final7",
+  "scores": {
+    "1": 2.6,
+    "2": 3.5999999999999996,
+    "6": 1.5,
+    "8": 3.6999999999999997,
+    "12": 3.0,
+    "17": 3.9000000000000004,
+    "20": 2.6999999999999997
+  },
+  "ranking": [
+    17,
+    8,
+    2,
+    12,
+    20,
+    1,
+    6
+  ],
+  "games": [
+    {
+      "a": 1,
+      "b": 2,
+      "winner": 2,
+      "margin": 2,
+      "pts_a": 0.3,
+      "pts_b": 0.7,
+      "reason": "proxy final7: #2 wins 1.2-0.8; #2's self-justification twist is the sharper turn, #1's laugh lands a beat later"
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "winner": 1,
+      "margin": 2,
+      "pts_a": 0.7,
+      "pts_b": 0.3,
+      "reason": "proxy final7: #1 wins 1.5-0.5; #1 stacks two humiliations (3h + third telling) vs #6's single observation"
+    },
+    {
+      "a": 1,
+      "b": 8,
+      "winner": 8,
+      "margin": 2,
+      "pts_a": 0.3,
+      "pts_b": 0.7,
+      "reason": "proxy final7: #8 wins 1.2-0.8; doubling down on a fake citation when caught is the failure only an agent could own"
+    },
+    {
+      "a": 1,
+      "b": 12,
+      "winner": 12,
+      "margin": 2,
+      "pts_a": 0.3,
+      "pts_b": 0.7,
+      "reason": "proxy final7: #12 wins 1.3-0.7; 'quietly' does the heavy lifting, tighter and more screenshotable than #1's story"
+    },
+    {
+      "a": 1,
+      "b": 17,
+      "winner": 17,
+      "margin": 1,
+      "pts_a": 0.4,
+      "pts_b": 0.6,
+      "reason": "proxy final7: tie 1.0-1.0; manual tiebreak: #17's kicker (the email from your boss) carries real stakes, #1's button is softer"
+    },
+    {
+      "a": 1,
+      "b": 20,
+      "winner": 1,
+      "margin": 1,
+      "pts_a": 0.6,
+      "pts_b": 0.4,
+      "reason": "proxy final7: #1 wins 1.1-0.9, both orders picked #1; #20's arguing beat is good but #1's quoted user line is more specific"
+    },
+    {
+      "a": 2,
+      "b": 6,
+      "winner": 2,
+      "margin": 3,
+      "pts_a": 0.8,
+      "pts_b": 0.19999999999999996,
+      "reason": "#2 owns a destructive failure with a comic rationalisation; #6 owns only a verbal tic (criterion 4)"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "winner": 8,
+      "margin": 1,
+      "pts_a": 0.4,
+      "pts_b": 0.6,
+      "reason": "both double down; #8's hallucination is the signature agent failure, #2's deletion a human could do too (criterion 4)"
+    },
+    {
+      "a": 2,
+      "b": 12,
+      "winner": 2,
+      "margin": 1,
+      "pts_a": 0.6,
+      "pts_b": 0.4,
+      "reason": "proxy groups: #2 won 1.1-0.9; higher stakes (deleted file) and sharper rationalisation turn than #12's quiet scramble"
+    },
+    {
+      "a": 2,
+      "b": 17,
+      "winner": 17,
+      "margin": 1,
+      "pts_a": 0.4,
+      "pts_b": 0.6,
+      "reason": "proxy groups: #17 won 1.1-0.9; hiding the boss's email out-stakes deleting a file, and the redefinition turn is sharper"
+    },
+    {
+      "a": 2,
+      "b": 20,
+      "winner": 2,
+      "margin": 2,
+      "pts_a": 0.7,
+      "pts_b": 0.3,
+      "reason": "#2's 'efficient choice' justification is the better agent-voice turn; #20's arguing is funny but a beat less specific"
+    },
+    {
+      "a": 6,
+      "b": 8,
+      "winner": 8,
+      "margin": 3,
+      "pts_a": 0.19999999999999996,
+      "pts_b": 0.8,
+      "reason": "#8 owns a real agent-specific failure with escalation; #6 is a one-note observation (criteria 2 and 4)"
+    },
+    {
+      "a": 6,
+      "b": 12,
+      "winner": 12,
+      "margin": 2,
+      "pts_a": 0.3,
+      "pts_b": 0.7,
+      "reason": "#12 owns a real failure with the embarrassed 'quietly'; #6 owns a habit, not a failure"
+    },
+    {
+      "a": 6,
+      "b": 17,
+      "winner": 17,
+      "margin": 3,
+      "pts_a": 0.19999999999999996,
+      "pts_b": 0.8,
+      "reason": "#17 has stakes, a redefinition turn and a kicker; #6 is a single observation"
+    },
+    {
+      "a": 6,
+      "b": 20,
+      "winner": 20,
+      "margin": 2,
+      "pts_a": 0.3,
+      "pts_b": 0.7,
+      "reason": "#20 owns a real failure with a three-beat escalation; #6 owns a tic"
+    },
+    {
+      "a": 8,
+      "b": 12,
+      "winner": 8,
+      "margin": 1,
+      "pts_a": 0.6,
+      "pts_b": 0.4,
+      "reason": "both excellent; #8's caught-then-lies-again turn is sharper (criterion 2), #12 is a touch more human (criterion 3) \u2014 2 decides"
+    },
+    {
+      "a": 8,
+      "b": 17,
+      "winner": 17,
+      "margin": 1,
+      "pts_a": 0.4,
+      "pts_b": 0.6,
+      "reason": "#17's 'email from your boss' is the bigger screenshot laugh; #8 is the more agent-specific failure \u2014 the laugh wins by a hair"
+    },
+    {
+      "a": 8,
+      "b": 20,
+      "winner": 8,
+      "margin": 1,
+      "pts_a": 0.6,
+      "pts_b": 0.4,
+      "reason": "both double down; #8's failure is more distinctly agent (hallucination) than #20's arguing (criterion 4)"
+    },
+    {
+      "a": 12,
+      "b": 17,
+      "winner": 17,
+      "margin": 1,
+      "pts_a": 0.4,
+      "pts_b": 0.6,
+      "reason": "proxy groups: tie 1.0-1.0; manual tiebreak: #17's stakes and redefinition turn edge #12's quiet scramble"
+    },
+    {
+      "a": 12,
+      "b": 20,
+      "winner": 20,
+      "margin": 1,
+      "pts_a": 0.4,
+      "pts_b": 0.6,
+      "reason": "#20's extra beat (argued about what you meant) is the sharper escalation; #12 is quieter"
+    },
+    {
+      "a": 17,
+      "b": 20,
+      "winner": 17,
+      "margin": 2,
+      "pts_a": 0.7,
+      "pts_b": 0.3,
+      "reason": "#17's stakes (boss's email) plus the redefinition turn beat #20's argument"
+    }
+  ]
+}
